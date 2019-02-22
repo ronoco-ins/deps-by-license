@@ -1,0 +1,28 @@
+{
+  "name": "deps-by-license",
+  "version": "0.0.1",
+  "description": "CLI tool to list all dependencies of a js project, sorted by license",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "deps-by-license": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronoco-ins/list-all-deps.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "mxjxn",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ronoco-ins/deps-by-license/issues"
+  },
+  "homepage": "https://github.com/ronoco-ins/deps-by-license#readme",
+  "dependencies": {
+    "license-checker": "^25.0.1"
+  }
+}
